@@ -4,7 +4,8 @@ import java.io.Serializable;
 
 /**
  * user class
- * @author k
+ *
+ * @author macforsong
  * @version 1.0
  */
 public class User implements Serializable {
@@ -13,6 +14,7 @@ public class User implements Serializable {
 
     /**
      * initiate the user
+     *
      * @param username user name
      * @param password user password
      */
@@ -21,9 +23,10 @@ public class User implements Serializable {
         this.username = username;
         this.password = password;
     }
-    
+
     /**
      * get user password
+     *
      * @return
      */
     public String getPassword() {
@@ -32,6 +35,7 @@ public class User implements Serializable {
 
     /**
      * set user password
+     *
      * @param password
      */
     public void setPassword(String password) {
@@ -40,6 +44,7 @@ public class User implements Serializable {
 
     /**
      * get user name
+     *
      * @return
      */
     public String getUserName() {
@@ -48,12 +53,12 @@ public class User implements Serializable {
 
     /**
      * set user name
+     *
      * @param username
      */
     public void setUserName(String username) {
         this.username = username;
     }
-
 
 
     /**
